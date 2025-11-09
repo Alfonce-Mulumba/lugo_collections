@@ -743,6 +743,12 @@ section,
 }
 
 @media (max-width: 768px) {
+  .hero {
+    height: auto;        /* allow height to grow with content */
+    min-height: auto;    /* remove the minimum height constraint */
+    padding: 100px 0;    /* add some breathing space top/bottom */
+  }
+
   .hero h2 {
     font-size: 32px;
   }
