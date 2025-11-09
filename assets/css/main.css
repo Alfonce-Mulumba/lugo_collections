@@ -1039,11 +1039,12 @@ section,
 
 .portfolio .portfolio-item .portfolio-info {
   background-color: color-mix(in srgb, var(--surface-color), transparent 10%);
-  opacity: 0;
+  opacity: 1;
+  visibility: visible;
   position: absolute;
   left: 30px;
   right: 30px;
-  bottom: 0;
+  bottom: 10px;
   z-index: 3;
   transition: all ease-in-out 0.3s;
   padding: 15px;
@@ -1085,6 +1086,7 @@ section,
 
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
+  visibility: visible;
   bottom: 20px;
 }
 
